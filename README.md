@@ -36,12 +36,12 @@ It is built using core PHP and MySQL, making it a great beginner-friendly projec
 
 ## ✨ Features
 
-- ➕ Add new records (Create)
-- 📄 View all records (Read)
-- ✏️ Edit existing records (Update)
-- ❌ Delete records (Delete)
-- 🗄️ MySQL database integration
-- 🎨 Clean and simple UI
+-  Add new records (Create)
+-  View all records (Read)
+-  Edit existing records (Update)
+-  Delete records (Delete)
+-  MySQL database integration
+-  Clean and simple UI
 
 ---
 
