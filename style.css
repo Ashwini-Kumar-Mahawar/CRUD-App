@@ -1,0 +1,141 @@
+/* ---------- Global ---------- */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    background: #f4f8ff;
+    padding: 20px;
+}
+
+main{
+    max-width: 600px;
+    margin: auto;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+/* ---------- App Card ---------- */
+.crud_app{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+/* ---------- Form ---------- */
+.task-form input,
+.task-form textarea{
+    width: 96%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: #007bff;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-cancel{
+    margin-left: 10px;
+    background-color: #6c757d;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+/* ---------- Messages ---------- */
+.message_success{
+    color: green;
+    text-align: center;
+}
+.message_error{
+    color: red;
+    text-align: center;
+}
+
+/* ---------- Tasks ---------- */
+.tasks_container{
+    margin-top: 20px;
+}
+
+/* ---------- Task Card ---------- */
+.task_item{
+    position: relative;
+    background-color: #cfe4ff;
+    padding: 15px 15px 55px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+/* ---------- Header ---------- */
+.task_header{
+    position: static;  
+}
+
+/* Title */
+.task_header h3{
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+/* ---------- STATUS ---------- */
+.task-status{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    padding: 4px 8px;
+    color: white;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+.status_pending{
+    background-color: orange;
+}
+
+.status_completed{
+    background-color: green;
+}
+
+/* ---------- Description ---------- */
+.task_description{
+    font-size: 14px;
+    color: #414040;
+    margin: 10px 0;
+}
+
+/* ---------- Date ---------- */
+.task_date{
+    font-size: 12px;
+    color: #534b4b;
+}
+
+/* ---------- BUTTONS ---------- */
+.btn-edit,
+.btn-delete{
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.btn-edit{
+    left: 10px;
+    background-color: #28a745;
+}
+
+.btn-delete{
+    left: 75px;
+    background-color: #dc3545;
+}
